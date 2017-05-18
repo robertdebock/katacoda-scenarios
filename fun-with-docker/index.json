@@ -1,11 +1,11 @@
 {
-  "title": "My First Scenario",
-  "description": "Learning how to educate via Katacoda",
+  "title": "Fun with Docker",
+  "description": "An easy introduction to Docker.",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md" },
-      { "title": "Goes", "text": "step2.md" },
-      { "title": "Here", "text": "step3.md" }
+      { "title": "Running hello-world", "text": "step1.md" },
+      { "title": "Removing hello-world container", "text": "step2.md" },
+      { "title": "Removing hello-world image", "text": "step3.md" }
     ],
     "intro": {
       "text": "intro.md",

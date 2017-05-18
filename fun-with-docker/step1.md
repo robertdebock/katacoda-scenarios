@@ -1,1 +1,3 @@
-In the first step...
+Start a container called hello-world
+
+`docker run hello-world`{{execute}}
