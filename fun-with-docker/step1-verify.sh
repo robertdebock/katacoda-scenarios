@@ -1,1 +1,1 @@
-touch /tmp/step1-verify
+echo "done"
