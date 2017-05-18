@@ -6,7 +6,7 @@
       {
         "title": "Running a container",
         "text": "step1.md",
-        "verify": "sh step1-verify.sh",
+        "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
