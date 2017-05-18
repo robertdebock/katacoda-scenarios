@@ -11,15 +11,11 @@
       },
       {
         "title": "Removing a container",
-        "text": "step2.md",
-        "verify": "step2-verify.sh",
-        "answer": "step2-answer.md"
+        "text": "step2.md"
       },
       {
         "title": "Removing an image",
-        "text": "step3.md",
-        "verify": "step3-verify.sh",
-        "answer": "step3-answer.md"
+        "text": "step3.md"
       }
     ],
     "intro": {
