@@ -1,3 +1,1 @@
-#!/bin/sh
-
-touch /tmp/ikdoehet
+touch /tmp/step1-coursedata

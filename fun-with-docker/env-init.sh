@@ -1,3 +1,1 @@
-touch /tmp/test
-
-export TEST=true
+touch /tmp/env-init

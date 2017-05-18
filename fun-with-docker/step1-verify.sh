@@ -1,1 +1,1 @@
-[ -d /home/core/test ] && echo "done"
+touch /tmp/step1-verify

@@ -6,9 +6,9 @@
       {
         "title": "Running a container",
         "text": "step1.md",
+        "courseData": "step1-coursedata.sh"
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md",
-        "courseData": "step1-coursedata.sh"
       },
       {
         "title": "Removing a container",
@@ -31,6 +31,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "coreos"
+    "imageid": "centos"
   }
 }
