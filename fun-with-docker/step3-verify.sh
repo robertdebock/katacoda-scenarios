@@ -1,1 +1,1 @@
-docker ps -a | grep hello-world > /dev/null 2>&1 && echo "done"
+docker images | grep hello-world || echo "done"

@@ -1,1 +1,1 @@
-Install docker using yum.
+Run a container called "hello-world".

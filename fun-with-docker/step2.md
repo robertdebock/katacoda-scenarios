@@ -1,1 +1,1 @@
-Start docker using systemctl.
+Remove the stopped container "hello-world".

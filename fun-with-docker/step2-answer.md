@@ -1,3 +1,3 @@
 ```
-systemctl start docker
+docker rm $(docker ps -alq)
 ```{{execute}}
