@@ -1,3 +1,1 @@
-Start a container called hello-world
-
-`docker run hello-world`{{execute}}
+Try to run a container called "hello-world".
