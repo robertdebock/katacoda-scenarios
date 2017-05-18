@@ -7,7 +7,8 @@
         "title": "Running a container",
         "text": "step1.md",
         "verify": "step1-verify.sh",
-        "answer": "step1-answer.md"
+        "answer": "step1-answer.md",
+        "courseData": "step1-coursedata.sh"
       },
       {
         "title": "Removing a container",
