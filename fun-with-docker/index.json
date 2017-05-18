@@ -4,8 +4,8 @@
   "details": {
     "steps": [
       { "title": "Running a container", "text": "step1.md", "verify": "step1-verify.sh", "answer": "step1-answer.md" },
-      { "title": "Removing a container", "text": "step2.md", "verify": "step1-verify.sh", "answer": "step2-answer.md" },
-      { "title": "Removing an image", "text": "step2.md", "verify": "step1-verify.sh", "answer": "step2-answer.md" }
+      { "title": "Removing a container", "text": "step2.md", "verify": "step2-verify.sh", "answer": "step2-answer.md" },
+      { "title": "Removing an image", "text": "step3.md", "verify": "step3-verify.sh", "answer": "step3-answer.md" }
     ],
     "intro": {
       "text": "intro.md"
