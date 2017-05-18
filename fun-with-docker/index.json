@@ -19,13 +19,16 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
+    "hideintro": true,
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
