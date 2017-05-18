@@ -4,19 +4,22 @@
   "details": {
     "steps": [
       {
-        "title": "Running a container",
+        "title": "Installing docker",
         "text": "step1.md",
-        "courseData": "step1-coursedata.sh",
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Removing a container",
-        "text": "step2.md"
+        "title": "Starting docker",
+        "text": "step2.md",
+        "verify": "step2-verify.sh",
+        "answer": "step2-answer.md"
       },
       {
-        "title": "Removing an image",
-        "text": "step3.md"
+        "title": "Starting a container",
+        "text": "step3.md",
+        "verify": "step3-verify.sh",
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {

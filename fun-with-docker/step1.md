@@ -1,1 +1,1 @@
-Try to run a container called "hello-world".
+Install docker using yum.

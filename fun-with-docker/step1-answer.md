@@ -1,3 +1,3 @@
 ```
-docker run hello-world
+yum -y install docker
 ```{{execute}}
