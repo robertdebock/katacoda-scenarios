@@ -1,1 +1,1 @@
-[ -d test ] && echo "done"
+[ -d /home/core/test ] && echo "done"
