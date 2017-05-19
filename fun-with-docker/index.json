@@ -23,7 +23,7 @@
         "answer": "step3-answer.md"
       },
       {
-        "title": "Running your own image differently",
+        "title": "Running a different command",
         "text": "step4.md",
         "verify": "step4-verify.sh",
         "answer": "step4-answer.md"
