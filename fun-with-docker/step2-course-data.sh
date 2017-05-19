@@ -1,4 +1,4 @@
-cat << EOF >> Dockerfile
+cat << EOF >> /home/scrapbook/tutorial/Dockerfile
 FROM alpine
 
 RUN apk add --no-cache openssl
