@@ -1,3 +1,3 @@
 ```
-docker rm $(docker ps -alq)
+docker build .
 ```{{execute}}

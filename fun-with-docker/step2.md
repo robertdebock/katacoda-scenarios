@@ -7,7 +7,7 @@ For example, create a file called "Dockerile" with this content:
 ````
 FROM alpine
 
-RUN apt-get --no-cache add openssl
+RUN apk add --no-cache openssl
 
 CMD echo "You can use openssl in this container."
 ````
