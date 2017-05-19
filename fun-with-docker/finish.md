@@ -1,6 +1,7 @@
 You've learned to:
-- Start a container
-- Stop a container
-- Remove an image
+- Run an image.
+- Build and image.
+- Run your own image.
+- Run your own image with a different command.
 
 Well done!
