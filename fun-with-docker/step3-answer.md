@@ -1,3 +1,3 @@
 ```
-docker rmi hello-world
+docker run myimage
 ```{{execute}}

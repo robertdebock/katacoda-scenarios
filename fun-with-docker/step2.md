@@ -14,4 +14,4 @@ CMD echo "You can use openssl in this container."
 
 (It's been placed for you, no need to create it.)
 
-Build the Dockerfile
+Build the Dockerfile, tag it with "myimage".

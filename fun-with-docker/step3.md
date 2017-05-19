@@ -1,1 +1,1 @@
-Remove the image "hello-world".
+Run the container "myimage".
