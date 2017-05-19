@@ -1,7 +1,9 @@
-cat << EOF >> /home/scrapbook/tutorial/Dockerfile
+cd /home/scrapbook/tutorial
+
+cat << EOF >> Dockerfile
 FROM alpine
 
 RUN apk add --no-cache openssl
 
-CMD echo "You can use openssl in this container.
+CMD echo "You can use openssl in this container."
 EOF
