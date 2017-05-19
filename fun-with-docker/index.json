@@ -4,23 +4,29 @@
   "details": {
     "steps": [
       {
-        "title": "Installing docker",
+        "title": "Running the hello-world container",
         "text": "step1.md",
         "verify": "step1-verify.sh",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Starting docker",
+        "title": "Building your own image",
         "text": "step2.md",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md",
         "courseData": "step2-course-data.sh"
       },
       {
-        "title": "Starting a container",
+        "title": "Running your own image",
         "text": "step3.md",
         "verify": "step3-verify.sh",
         "answer": "step3-answer.md"
+      },
+      {
+        "title": "Running your own image differently",
+        "text": "step4.md",
+        "verify": "step4-verify.sh",
+        "answer": "step4-answer.md"
       }
     ],
     "intro": {
