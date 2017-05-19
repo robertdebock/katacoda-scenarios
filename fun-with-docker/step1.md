@@ -6,4 +6,4 @@ There are a few commands, give them a try.
 - `docker info`{{execute}}
 - `docker run --help`{{execute}}
 
-Run a container called "hello-world".
+Run a container called "hello-world"...
