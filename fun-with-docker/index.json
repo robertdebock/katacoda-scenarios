@@ -27,6 +27,12 @@
         "text": "step4.md",
         "verify": "step4-verify.sh",
         "answer": "step4-answer.md"
+      },
+      {
+        "title": "Enter the container",
+        "text": "step5.md",
+        "verify": "step5-verify.sh",
+        "answer": "step5-answer.md"
       }
     ],
     "intro": {
