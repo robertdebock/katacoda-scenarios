@@ -1,9 +1,7 @@
 cd /home/scrapbook/tutorial
 
-cat << EOF >> Dockerfile
-FROM alpine
-
-RUN apk add --no-cache openssl
-
-CMD echo "You can use openssl in this container."
-EOF
+echo "FROM alpine" > Dockerfile
+echo "" >> Dockerfile
+echo "RUN apk add --no-cache openssl" >> Dockerfile
+echo "" >> Dockerfile
+echo "CMD echo 'You can use openssl in this container.'" >> Dockerfile
