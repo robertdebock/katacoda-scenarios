@@ -1,5 +1,7 @@
 exec >> /tmp/step5-debug.tt 2>&1
 
+set -x
+
 cmd=$(docker inspect  -f "{{.Config.Cmd}}" $(docker ps -ql))
 image=$(docker inspect  -f "{{.Config.Image}}" $(docker ps -ql))
 
