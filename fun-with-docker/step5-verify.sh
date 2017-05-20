@@ -1,4 +1,5 @@
-exec >> /tmp/step5-debug.tt 2>&1
+exec >> /tmp/step5-debug.txt
+exec 2>&1
 
 set -x
 
