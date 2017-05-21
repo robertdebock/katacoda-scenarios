@@ -1,3 +1,5 @@
+file=step5-debug.txt
+
 cmd=$(docker inspect  -f "{{.Config.Cmd}}" $(docker ps -ql))
 echo "cmd = ${cmd}" >> "${file}"
 
