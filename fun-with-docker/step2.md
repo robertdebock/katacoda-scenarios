@@ -1,5 +1,3 @@
-# Building your own images
-
 Instead of using images that others created, you can pickup on an existing image, add or change a few things and build your own.
 
 For example, look at the file called "Dockerile" with this content:

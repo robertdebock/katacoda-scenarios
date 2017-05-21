@@ -1,4 +1,3 @@
-# Running you container
 Here you will start your self-built container.
 
 You've seen the CMD in the Dockerfile:

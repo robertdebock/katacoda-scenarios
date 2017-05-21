@@ -1,4 +1,3 @@
-# Running different commands
 The image you have built only returns a message, but you can also run different commands.
 
 # Task

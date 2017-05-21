@@ -1,5 +1,3 @@
-# Make yourself familiar with Docker
-
 There are a few commands, give them a try.
 
 `docker ps`{{execute}}
