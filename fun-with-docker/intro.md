@@ -7,3 +7,4 @@ You'll learn about the basics of Docker, which include:
 - Build and image.
 - Run your own image.
 - Run your own image with a different command.
+- Enter a container.

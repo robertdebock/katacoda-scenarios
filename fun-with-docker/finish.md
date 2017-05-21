@@ -3,5 +3,6 @@ You've done it! Here is what you've learned:
 - Build and image.
 - Run your own image.
 - Run your own image with a different command.
+- Enter a command.
 
 Well done!
