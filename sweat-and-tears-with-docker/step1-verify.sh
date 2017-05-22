@@ -1,7 +1,9 @@
-docker inspect $(docker ps -alq) | jq '.[0].Config.Cmd' | grep printenv > /dev/null 2>&1 && cmd=ok
-docker inspect $(docker ps -alq) | jq '.[0].Config.Env' | grep variable | grep value > /dev/null 2>&1 && env=ok
-docker inspect $(docker ps -alq) | jq '.[0].Config.Image' | grep alpine > /dev/null 2>&1 && img=ok
+docker inspect $(docker ps -alq) > output
 
-if [ "${cmd}" = "ok" -a "${env}" = "ok" -a "${img}" = ok ] ; then
+cmd=$(docker run -v $(pwd):/data realguess/jq jq -r '.[0].Config.Cmd[0]' /data/output)
+env=$(docker run -v $(pwd):/data realguess/jq jq -r '.[0].Config.Env[0]' /data/output)
+
+if [ "${cmd}" = "printenv" -a "${env}" = "variable=value" ] ; then
   echo "done"
+  rm output
 fi
