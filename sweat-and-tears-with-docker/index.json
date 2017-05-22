@@ -14,7 +14,6 @@
         "text": "step2.md",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md",
-        "courseData": "step2-course-data.sh"
       },
       {
         "title": "Networking in Docker",
