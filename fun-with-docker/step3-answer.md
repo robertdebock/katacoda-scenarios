@@ -1,3 +1,3 @@
 ```
-docker run myimage
+docker build . -t myimage
 ```{{execute}}

@@ -1,8 +1,7 @@
-(To cleanup from the previous step, enter `exit` to go out of the container.)
+# Entering into the image
+There can be times where you'd like to see what's inside the image, for troubleshooting, or better understanding.
 
-It's common to run a service on some TCP or UDP port. In this example we'll start a webserver.
-
-The run option `-p HOSTPORT:CONTAINERPORT` can be used to "expose" a port.
+In the task below you'll enter the image and can look around using `ls` or `find` for example.
 
 # Task
-Run the image "nginx" exposing port 80.
+Start an interactive container from the myimage image running `/bin/sh` (hint: Use `run` with the options `-ti`).

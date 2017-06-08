@@ -10,35 +10,41 @@
         "answer": "step1-answer.md"
       },
       {
-        "title": "Building your own image",
+        "title": "Images",
         "text": "step2.md",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md",
-        "courseData": "step2-course-data.sh"
+      },
+      {
+        "title": "Building your own image",
+        "text": "step3.md",
+        "verify": "step3-verify.sh",
+        "answer": "step3-answer.md",
+        "courseData": "step3-course-data.sh"
       },
       {
         "title": "Running your own image",
-        "text": "step3.md",
-        "verify": "step3-verify.sh",
-        "answer": "step3-answer.md"
-      },
-      {
-        "title": "Running a different command",
         "text": "step4.md",
         "verify": "step4-verify.sh",
         "answer": "step4-answer.md"
       },
       {
-        "title": "Entering a container",
+        "title": "Running a different command",
         "text": "step5.md",
         "verify": "step5-verify.sh",
         "answer": "step5-answer.md"
       },
       {
-        "title": "Exposing a service",
+        "title": "Entering a container",
         "text": "step6.md",
         "verify": "step6-verify.sh",
         "answer": "step6-answer.md"
+      },
+      {
+        "title": "Exposing a service",
+        "text": "step7.md",
+        "verify": "step7-verify.sh",
+        "answer": "step7-answer.md"
       }
     ],
     "intro": {

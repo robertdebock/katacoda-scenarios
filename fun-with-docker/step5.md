@@ -1,7 +1,6 @@
-# Entering into the image
-There can be times where you'd like to see what's inside the image, for troubleshooting, or better understanding.
-
-In the task below you'll enter the image and can look around using `ls` or `find` for example.
+The image you have built only returns a message, but you can also run different commands.
 
 # Task
-Start an interactive container from the myimage image running `/bin/sh` (hint: Use `run` with the options `-ti`).
+Generate a random password with the container "myimage", save the password in the file "password.txt" (hint: `openssl rand -base64 32`)
+
+Don't rewrite the Dockerfile, but use `docker run ...` to run the existing image wiht a different command.

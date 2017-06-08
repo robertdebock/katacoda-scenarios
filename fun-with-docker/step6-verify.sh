@@ -1,1 +1,1 @@
-docker ps | grep nginx | grep '80->80/tcp' > /dev/null 2>&1 && echo "done"
+docker ps -al | grep myimage | grep '/bin/sh' > /dev/null 2>&1 && echo "done"

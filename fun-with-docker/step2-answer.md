@@ -1,3 +1,3 @@
-```
-docker build . -t myimage
-```{{execute}}
+````
+docker rmi $(docker images -q)
+````

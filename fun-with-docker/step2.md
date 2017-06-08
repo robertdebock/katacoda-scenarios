@@ -1,13 +1,13 @@
-Instead of using images that others created, you can pickup on an existing image, add or change a few things and build your own.
+Docker images are stored on a host running a docker engine.
 
-For example, look at the file called "Dockerfile" with this content:
-
+You can list them:
 ````
-FROM alpine
-RUN apk add --no-cache openssl
-CMD echo "You can use openssl in this container."
+docker images
 ````
-(It's been placed for you, no need to create it.)
 
-# Task
-Build the Dockerfile, tag it with "myimage" (hint: `docker build --help`).
+You can remove them using:
+````
+docker rmi IMAGENAME
+````
+
+Task: Remove all images.

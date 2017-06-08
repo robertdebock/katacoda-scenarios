@@ -1,3 +1,3 @@
 ```
-docker run -p 80:80 nginx
+docker run -ti myimage /bin/sh
 ```{{execute}}

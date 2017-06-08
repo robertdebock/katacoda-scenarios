@@ -1,11 +1,13 @@
-Here you will start your self-built container.
+Instead of using images that others created, you can pickup on an existing image, add or change a few things and build your own.
 
-You've seen the CMD in the Dockerfile:
-```
-CMD echo 'You can use openssl in this container.'
-```
+For example, look at the file called "Dockerfile" with this content:
 
-So this container will start, show the above message and stop.
+````
+FROM alpine
+RUN apk add --no-cache openssl
+CMD echo "You can use openssl in this container."
+````
+(It's been placed for you, no need to create it.)
 
 # Task
-Run the container "myimage".
+Build the Dockerfile, tag it with "myimage" (hint: `docker build --help`).
