@@ -10,7 +10,7 @@
         "answer": "step1-answer.md"
       },
       {
-        "title": "Images",
+        "title": "Working with images",
         "text": "step2.md",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md",
