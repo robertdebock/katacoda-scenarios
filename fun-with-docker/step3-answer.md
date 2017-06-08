@@ -1,3 +1,3 @@
 ```
-docker build . -t myimage
+docker pull robertdebock/docker-centos-openssh
 ```{{execute}}

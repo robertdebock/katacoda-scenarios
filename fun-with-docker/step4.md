@@ -1,11 +1,5 @@
-Here you will start your self-built container.
+To update an image, simply run "docker pull IMAGE".
 
-You've seen the CMD in the Dockerfile:
-```
-CMD echo 'You can use openssl in this container.'
-```
+When the image is already available, an update will be pulled.
 
-So this container will start, show the above message and stop.
-
-# Task
-Run the container "myimage".
+Task: Update the ubuntu image.

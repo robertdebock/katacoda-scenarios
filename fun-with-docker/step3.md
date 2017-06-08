@@ -1,13 +1,7 @@
-Instead of using images that others created, you can pickup on an existing image, add or change a few things and build your own.
-
-For example, look at the file called "Dockerfile" with this content:
+To pull an image from https://hub.docker.com/ use:
 
 ````
-FROM alpine
-RUN apk add --no-cache openssl
-CMD echo "You can use openssl in this container."
+docker pull IMAGENAME:VERSION
 ````
-(It's been placed for you, no need to create it.)
 
-# Task
-Build the Dockerfile, tag it with "myimage" (hint: `docker build --help`).
+Task: Pull the image "robertdebock/docker-centos-openssh"

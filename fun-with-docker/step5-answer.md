@@ -1,3 +1,3 @@
 ```
-docker run myimage openssl rand -base64 32 | tee password.txt
+docker build . -t myimage
 ```{{execute}}

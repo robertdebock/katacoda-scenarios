@@ -1,7 +1,11 @@
-# Entering into the image
-There can be times where you'd like to see what's inside the image, for troubleshooting, or better understanding.
+Here you will start your self-built container.
 
-In the task below you'll enter the image and can look around using `ls` or `find` for example.
+You've seen the CMD in the Dockerfile:
+```
+CMD echo 'You can use openssl in this container.'
+```
+
+So this container will start, show the above message and stop.
 
 # Task
-Start an interactive container from the myimage image running `/bin/sh` (hint: Use `run` with the options `-ti`).
+Run the container "myimage".

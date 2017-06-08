@@ -1,3 +1,3 @@
 ```
-docker run -ti myimage /bin/sh
+docker run myimage
 ```{{execute}}

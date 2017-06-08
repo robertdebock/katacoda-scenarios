@@ -1,3 +1,3 @@
 ```
-docker run myimage
+docker pull ubuntu
 ```{{execute}}

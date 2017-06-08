@@ -10,41 +10,53 @@
         "answer": "step1-answer.md"
       },
       {
-        "title": "Working with images",
+        "title": "Removing images",
         "text": "step2.md",
         "verify": "step2-verify.sh",
         "answer": "step2-answer.md"
       },
       {
-        "title": "Building your own image",
+        "title": "Pulling images",
         "text": "step3.md",
         "verify": "step3-verify.sh",
-        "answer": "step3-answer.md",
-        "courseData": "step3-course-data.sh"
+        "answer": "step3-answer.md"
       },
       {
-        "title": "Running your own image",
+        "title": "Updating images",
         "text": "step4.md",
         "verify": "step4-verify.sh",
         "answer": "step4-answer.md"
       },
       {
-        "title": "Running a different command",
+        "title": "Building your own image",
         "text": "step5.md",
         "verify": "step5-verify.sh",
-        "answer": "step5-answer.md"
+        "answer": "step5-answer.md",
+        "courseData": "step5-course-data.sh"
       },
       {
-        "title": "Entering a container",
+        "title": "Running your own image",
         "text": "step6.md",
         "verify": "step6-verify.sh",
         "answer": "step6-answer.md"
       },
       {
-        "title": "Exposing a service",
+        "title": "Running a different command",
         "text": "step7.md",
         "verify": "step7-verify.sh",
         "answer": "step7-answer.md"
+      },
+      {
+        "title": "Entering a container",
+        "text": "step8.md",
+        "verify": "step8-verify.sh",
+        "answer": "step8-answer.md"
+      },
+      {
+        "title": "Exposing a service",
+        "text": "step9.md",
+        "verify": "step9-verify.sh",
+        "answer": "step9-answer.md"
       }
     ],
     "intro": {
