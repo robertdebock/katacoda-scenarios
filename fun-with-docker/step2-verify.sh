@@ -1,1 +1,1 @@
-docker images ubuntu:latest | grep ubuntu | grep latest > /dev/null && echo "done"
+docker inspect ubuntu:latest > /dev/null 2>&1 || echo "done"
