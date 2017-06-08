@@ -13,7 +13,7 @@
         "title": "Working with images",
         "text": "step2.md",
         "verify": "step2-verify.sh",
-        "answer": "step2-answer.md",
+        "answer": "step2-answer.md"
       },
       {
         "title": "Building your own image",
