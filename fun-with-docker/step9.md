@@ -6,3 +6,7 @@ The run option `-p HOSTPORT:CONTAINERPORT` can be used to "expose" a port.
 
 # Task
 Run the image "nginx" exposing port 80.
+
+When you've completed this step, visit this URL to verify:
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
