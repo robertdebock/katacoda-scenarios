@@ -10,6 +10,5 @@ You can remove them using:
 docker rmi IMAGENAME
 ````
 
-Task: Remove the "ubuntu:latest" image.
-#Task: Pull the "centos" image.
-#Task: update the "alpine" image.
+# Task
+Remove the "ubuntu:latest" image.
