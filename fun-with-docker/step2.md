@@ -10,4 +10,6 @@ You can remove them using:
 docker rmi IMAGENAME
 ````
 
-Task: Remove all images.
+Task: Remove the "ubuntu:latest" image.
+#Task: Pull the "centos" image.
+#Task: update the "alpine" image.
