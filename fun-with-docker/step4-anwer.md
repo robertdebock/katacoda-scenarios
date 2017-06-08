@@ -1,3 +1,3 @@
 ```
-docker pull ubuntu
+docker pull redis
 ```{{execute}}
