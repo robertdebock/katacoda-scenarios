@@ -28,6 +28,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "coreos"
+    "imageid": "docker-direct"
   }
 }
