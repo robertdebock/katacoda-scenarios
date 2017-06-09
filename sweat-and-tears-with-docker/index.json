@@ -35,6 +35,7 @@
         "text": "compose.md",
         "verify": "compose-verify.sh",
         "answer": "compose-answer.md"
+        "courseData": "compose-perpare.sh"
       }
     ],
     "intro": {

@@ -8,4 +8,4 @@ A volume can store it's data on:
 1. Observe that a directory "mydata" has been added for you, containing a file.
 2. Make a host-mount from $(pwd)/mydata to /usr/share/nginx/html in the container nginx, exposing port 81, bound to port 80.
 
-Open https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+Open https://[[HOST_SUBDOMAIN]]-81-[[KATACODA_HOST]].environments.katacoda.com/
