@@ -8,11 +8,18 @@
         "text": "variables.md",
         "verify": "variables-verify.sh",
         "answer": "variables-answer.md"
+      },
+      {
+        "title": "Using volumes",
+        "text": "volumes.md",
+        "verify": "volumes-verify.sh",
+        "answer": "volumes-answer.md",
+        "courseData": "volumes-coursedata.sh"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "intro-course-data.sh"
+      "courseData": "intro-coursedata.sh"
     },
     "finish": {
       "text": "finish.md"
