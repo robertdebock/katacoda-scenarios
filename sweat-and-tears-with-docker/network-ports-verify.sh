@@ -1,1 +1,1 @@
-curl --fail http://localhost:80 > /dev/null 2>&1 && echo "done"
+docker ps --filter "ancestor=httpd" | grep '80->80' > /dev/null 2>&1 && echo "done"
