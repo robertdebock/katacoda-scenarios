@@ -59,7 +59,7 @@
         "answer": "step9-answer.md"
       },
       {
-        "title": "Debuggin",
+        "title": "Debugging",
         "text": "step10.md",
         "verify": "step10-verify.sh",
         "answer": "step10-answer.md"
