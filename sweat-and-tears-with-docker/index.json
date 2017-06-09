@@ -1,6 +1,8 @@
 {
   "title": "Sweat & Tears with Docker",
   "description": "More advanced topics on Docker.",
+  "time": "45 minutes",
+  "difficulty": "medium",
   "details": {
     "steps": [
       {
