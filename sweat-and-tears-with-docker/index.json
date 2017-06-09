@@ -16,7 +16,7 @@
         "text": "volumes.md",
         "verify": "volumes-verify.sh",
         "answer": "volumes-answer.md",
-        "courseData": "volumes-coursedata.sh"
+        "code": "volumes-prepare.sh"
       }
     ],
     "intro": {
