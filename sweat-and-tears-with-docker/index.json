@@ -20,7 +20,7 @@
         "title": "TCP/UDP ports",
         "text": "network-ports.md",
         "verify": "network-ports-verify.sh",
-        "answer": "network-ports-answer.md"
+        "answer": "network-ports-answer.md",
         "courseData": "network-cleanup.sh"
       },
       {
