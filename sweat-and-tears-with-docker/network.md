@@ -11,6 +11,6 @@ https://docs.docker.com/engine/userguide/networking/
 3. Start another container interactively and figure out what IP address the container has.
 
 # Hint
-Use `ifconfig -a`{{execute}} to see what IP address the container has.
-Use `ping IPADDRESS`{{execute}} to try and reach the other cotainer."
+Use `ifconfig -a` to see what IP address the container has.
+Use `ping IPADDRESS` to try and reach the other cotainer."
 

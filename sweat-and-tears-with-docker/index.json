@@ -27,6 +27,13 @@
         "verify": "volumes-verify.sh",
         "answer": "volumes-answer.md",
         "code": "volumes-prepare.sh"
+      },
+      {
+        "title": "Multiple containers",
+        "text": "compose.md",
+        "verify": "compose-verify.sh",
+        "answer": "compose-answer.md",
+        "courseData": "compose-coursedata.sh"
       }
     ],
     "intro": {
