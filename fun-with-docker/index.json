@@ -57,6 +57,12 @@
         "text": "step9.md",
         "verify": "step9-verify.sh",
         "answer": "step9-answer.md"
+      },
+      {
+        "title": "Debuggin",
+        "text": "step10.md",
+        "verify": "step10-verify.sh",
+        "answer": "step10-answer.md"
       }
     ],
     "intro": {
