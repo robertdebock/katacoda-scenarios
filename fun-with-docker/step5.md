@@ -9,8 +9,10 @@ CMD echo "You can use openssl in this container."
 ````
 (It's been placed for you, no need to create it.)
 
+Dockerfile is the default name of a dockerfile, when building this image, you can refer to ".". (The directory where the Dockerfile can be found.
+
 # Task
 Build the Dockerfile, tag it with "myimage"
 
 # Hint
-`docker build --help`).
+`docker build --help`
