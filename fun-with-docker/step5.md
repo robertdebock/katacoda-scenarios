@@ -10,4 +10,7 @@ CMD echo "You can use openssl in this container."
 (It's been placed for you, no need to create it.)
 
 # Task
-Build the Dockerfile, tag it with "myimage" (hint: `docker build --help`).
+Build the Dockerfile, tag it with "myimage"
+
+# Hint
+`docker build --help`).
