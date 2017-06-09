@@ -5,9 +5,9 @@
     "steps": [
       {
         "title": "Using variables in containers",
-        "text": "step1.md",
-        "verify": "step1-verify.sh",
-        "answer": "step1-answer.md"
+        "text": "variables.md",
+        "verify": "variables-verify.sh",
+        "answer": "variables-answer.md"
       }
     ],
     "intro": {
