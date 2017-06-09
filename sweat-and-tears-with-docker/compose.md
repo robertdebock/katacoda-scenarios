@@ -7,3 +7,7 @@ All containers in a docker-compose file can be managed by a single command `dock
 # Task
 
 Start this set of images.
+
+If all went well, visit:
+https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/
+
