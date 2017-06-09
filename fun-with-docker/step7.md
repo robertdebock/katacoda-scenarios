@@ -6,4 +6,5 @@ The image you have built only returns a message, but you can also run different 
 3. Don't rewrite the Dockerfile, but use `docker run ...` to run the existing image wiht a different command.
 
 # Hint
+`docker run --help` - Find the Usage section.
 `openssl rand -base64 32`
