@@ -9,3 +9,7 @@ So this container will start, show the above message and stop.
 
 # Task
 Run the container "myimage".
+
+# Hint
+This type of container start, and stops a very short moment later. You can use `--rm` to start, stop and clean up.
+For example `docker run --rm hello-world`
