@@ -1,2 +1,2 @@
 mkdir mydata
-echo "Hello world! > mydata/index.html
+echo "Hello world!" > mydata/index.html
