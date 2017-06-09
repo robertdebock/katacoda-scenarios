@@ -12,7 +12,9 @@ CMD echo "You can use openssl in this container."
 Dockerfile is the default name of a dockerfile, when building this image, you can refer to ".". (The directory where the Dockerfile can be found.
 
 # Task
-Build the Dockerfile, tag it with "myimage"
+
+* Build the Dockerfile found in the current directory.
+* Tag it with "myimage"
 
 # Hint
 `docker build --help`
