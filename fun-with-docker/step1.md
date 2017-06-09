@@ -13,7 +13,7 @@ This shows you the images available to run.
 Anywhere during the course you can type in `docker [command] --help`.
 
 # Task
-Run a container called "hello-world"
+Run an image called "hello-world"
 
 # Hint
 `docker run --help`
