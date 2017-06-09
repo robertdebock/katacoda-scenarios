@@ -12,14 +12,16 @@
         "answer": "variables-answer.md"
       },
       {
-        "title": "TCP/UDP ports",
-        "text": "network-ports.md",
-        "answer": "network-ports-answer.md"
-      },
-      {
         "title": "IP addresses",
         "text": "network.md",
         "answer": "network-answer.md"
+      },
+      {
+        "title": "TCP/UDP ports",
+        "text": "network-ports.md",
+        "verify": "network-ports-verify.sh",
+        "answer": "network-ports-answer.md"
+        "courseData": "network-cleanup.sh"
       },
       {
         "title": "Using volumes",
@@ -33,7 +35,6 @@
         "text": "compose.md",
         "verify": "compose-verify.sh",
         "answer": "compose-answer.md",
-        "courseData": "compose-coursedata.sh"
       }
     ],
     "intro": {

@@ -9,6 +9,7 @@ https://docs.docker.com/engine/userguide/networking/
 1. Start a container interactively and figure out what IP address the container has. `docker run -ti alpine /bin/sh`
 2. With the + symbol, open another terminal.
 3. Start another container interactively and figure out what IP address the container has.
+4. From the second container, `ping` the first container.
 
 # Hint
 Use `ifconfig -a` to see what IP address the container has.
