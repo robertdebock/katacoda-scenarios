@@ -1,3 +1,1 @@
-````
-docker run -v $(pwd)/mydata/:/usr/share/nginx/html nginx
-````{{execute}}
+` docker run -p 80:80 -v /mydata:/usr/share/nginx/html:ro nginx`{{execute}}
