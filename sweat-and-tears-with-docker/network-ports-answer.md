@@ -1,1 +1,1 @@
-`docker run -p 80:80 httpd`
+`docker run -d -p 80:80 httpd`{{execute}}

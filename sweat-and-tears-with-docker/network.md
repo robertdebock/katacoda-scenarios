@@ -6,7 +6,7 @@ https://docs.docker.com/engine/userguide/networking/
 
 # Task
 
-1. Start a container interactively and figure out what IP address the container has. `docker run -ti alpine /bin/sh`{{execute}}
+1. Start a container interactively and figure out what IP address the container has. `docker run -ti alpine /bin/sh`
 2. With the + symbol, open another terminal.
 3. Start another container interactively and figure out what IP address the container has.
 
