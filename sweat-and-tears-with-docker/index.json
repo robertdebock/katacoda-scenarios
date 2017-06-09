@@ -34,7 +34,7 @@
         "title": "Multiple containers",
         "text": "compose.md",
         "verify": "compose-verify.sh",
-        "answer": "compose-answer.md",
+        "answer": "compose-answer.md"
       }
     ],
     "intro": {
