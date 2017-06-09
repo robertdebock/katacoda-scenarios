@@ -12,6 +12,16 @@
         "answer": "variables-answer.md"
       },
       {
+        "title": "TCP/UDP ports",
+        "text": "network-ports.md",
+        "answer": "network-ports-answer.md"
+      },
+      {
+        "title": "IP addresses",
+        "text": "network.md",
+        "answer": "netwok-answer.md"
+      },
+      {
         "title": "Using volumes",
         "text": "volumes.md",
         "verify": "volumes-verify.sh",
