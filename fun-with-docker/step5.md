@@ -13,8 +13,8 @@ Dockerfile is the default name of a dockerfile, when building this image, you ca
 
 # Task
 
-* Build the Dockerfile found in the current directory.
-* Tag it with "myimage"
+1. Build the Dockerfile found in the current directory.
+2. Tag it with "myimage"
 
 # Hint
 `docker build --help`
