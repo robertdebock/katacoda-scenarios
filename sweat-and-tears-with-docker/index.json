@@ -4,6 +4,12 @@
   "time": "45 minutes",
   "difficulty": "medium",
   "details": {
+    "client": [
+      {
+        "file": "docker-compose.yml",
+        "target": "~/"
+      }
+    ],
     "steps": [
       {
         "title": "Using variables in containers",
@@ -34,8 +40,7 @@
         "title": "Multiple containers",
         "text": "compose.md",
         "verify": "compose-verify.sh",
-        "answer": "compose-answer.md",
-        "courseData": "compose-prepare.sh"
+        "answer": "compose-answer.md"
       }
     ],
     "intro": {
