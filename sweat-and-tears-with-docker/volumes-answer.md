@@ -9,4 +9,4 @@ Now you can see a volume mydata:
 
 2. Run the http image, map the named-volume "mydata" to /usr/local/apache2/htdocs, exposing port 81.
 
-`docker run -v mydata:/usr/local/apach2/htdocs -p 81:80 httpd`{{execute}}
+`docker run -v mydata:/usr/local/apache2/htdocs -p 81:80 httpd`{{execute}}
