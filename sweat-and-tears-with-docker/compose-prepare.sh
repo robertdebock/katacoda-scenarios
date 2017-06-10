@@ -17,7 +17,7 @@ echo "     depends_on:" >> docker-compose.yml
 echo "       - db" >> docker-compose.yml
 echo "     image: wordpress:latest" >> docker-compose.yml
 echo "     ports:" >> docker-compose.yml
-echo "       - "8000:80"" >> docker-compose.yml
+echo "       - \"8000:80\"" >> docker-compose.yml
 echo "     restart: always" >> docker-compose.yml
 echo "     environment:" >> docker-compose.yml
 echo "  WORDPRESS_DB_HOST: db:3306" >> docker-compose.yml
