@@ -27,8 +27,7 @@
         "title": "Using volumes",
         "text": "volumes.md",
         "verify": "volumes-verify.sh",
-        "answer": "volumes-answer.md",
-        "code": "volumes-prepare.sh"
+        "answer": "volumes-answer.md"
       },
       {
         "title": "Multiple containers",

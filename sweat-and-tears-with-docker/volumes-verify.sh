@@ -1,1 +1,1 @@
-docker inspect $(docker ps -ql) | grep Source | grep '/root/mydata' > /dev/null 2>&1 && docker inspect $(docker ps -ql) | grep Destination | grep '/usr/share/nginx/html' > /dev/null 2>&1 && echo "done"
+echo "done"
