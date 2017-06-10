@@ -1,5 +1,3 @@
-echo "Creating docker-compose.yml..."
-
 cat << EOF >> docker-compose.yml
 version: '3'
 
