@@ -7,5 +7,6 @@ A simple Dockerfile has been placed for you.
 1. Create a GitHub or BitBucket repository, containing the Dockerfile.
 2. Go to https://hub.docker.com/ and click Create -> Create Automatic Build.
 3. Refer to your repository.
-4. Do a push or commit to your repository and verify the build works.
+4. Fix the error in the Dockerfile.
+5. Do a push or commit to your repository and verify the build works.
 

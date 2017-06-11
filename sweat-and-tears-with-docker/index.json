@@ -32,6 +32,7 @@
       {
         "title": "Automatic builds",
         "text": "automatic-build.md",
+        "answer": "automatic-build-answer.md",
         "code": "automatic-build-code.sh"
       },
       {

@@ -1,5 +1,5 @@
 cat << EOF >> Dockerfile
-FROM whalesay
+FROM docker/whalesay
 
 CMD cowsay 'I love Microsoft!' 
 EOF
