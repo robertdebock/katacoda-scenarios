@@ -1,0 +1,30 @@
+{
+  "title": "Docker Swarm",
+  "description": "Learn how to use Docker Swarm.",
+  "time": "45 minutes",
+  "difficulty": "medium",
+  "details": {
+    "steps": [
+      {
+        "title": "Initializing Swarm",
+        "text": "initialize.md"
+      },
+      {
+        "title": "Joining more Docker Engines",
+        "text": "joining.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
