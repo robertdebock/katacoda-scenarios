@@ -30,6 +30,11 @@
         "answer": "volumes-answer.md"
       },
       {
+        "title": "Automatic builds",
+        "text": "automatic-build.md",
+        "code": "automatic-build.sh"
+      },
+      {
         "title": "Multiple containers",
         "text": "compose.md",
         "verify": "compose-verify.sh",
