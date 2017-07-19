@@ -25,7 +25,7 @@
         "title": "Updating images",
         "text": "step4.md",
         "verify": "step4-verify.sh",
-        "answer": "step4-answer.md"
+        "answer": "step5-answer.md"
       },
       {
         "title": "Building your own image",
