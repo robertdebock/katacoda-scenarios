@@ -1,1 +1,10 @@
-(test -d timesync/ ; test -d timesync/defaults/ ; test -d timesync/meta ; test -d timesync/tasks ; test -d timesync/templates ; test -d timesync/vars) && echo "done"
+result="okay"
+
+test -d timesync || result="failed"
+test -d timesync/defaults || result="failed"
+test -d timesync/meta || result="failed"
+test -d timesync/tasks || result="failed"
+test -d timesync/templates || result="failed"
+test -d timesync/vars || result="failed"
+
+echo "${result}"

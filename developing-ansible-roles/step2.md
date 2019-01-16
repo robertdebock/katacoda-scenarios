@@ -1,4 +1,4 @@
-# Well done
+# Well done!
 
 So, you've created the structure for an Ansible role. Now we need to describe some things the role should do. 
 
@@ -8,11 +8,6 @@ Let's start with the minimum possible, get time syncing to work on Fedora. Fedor
 
 # Code!
 
-Open `tasks/main.yml` and write one task that installs `chrony` using the `package` module. Here is a sample hint:
+Open `tasks/main.yml` and write one task that installs `chrony` using the `package` module.
 
-```yaml
-- name: install screen
-  package:
-    name: screen
-    state: present
-```
+Hint: [The documentation of the `package` module](https://docs.ansible.com/ansible/latest/modules/package_module.html).

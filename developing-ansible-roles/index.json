@@ -17,7 +17,9 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "step3.md",
+        "verify": "step3-verify.sh",
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {
