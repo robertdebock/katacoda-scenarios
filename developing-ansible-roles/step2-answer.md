@@ -1,3 +1,4 @@
+```
 cd timesync
 
 cat << EOF >> tasks/main.yml
@@ -6,3 +7,4 @@ cat << EOF >> tasks/main.yml
     name: chrony
     state: present
 EOF
+```
