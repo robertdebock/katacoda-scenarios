@@ -1,3 +1,1 @@
-for directory in defaults meta tasks templates vars ; do
-  test -d /home/scrapbook/tutorial/timesync/${directory}
-done && echo "done"
+(test -d timesync/ ; test -d timesync/defaults/ ; test timesync/meta ; test timesync/tasks ; test timesync/templates ; test timesync/vars ) && echo "done"
