@@ -1,1 +1,1 @@
-`ansible-galaxy init timesync --offline`
+`ansible-galaxy init timesync --offline`{{execute}}
