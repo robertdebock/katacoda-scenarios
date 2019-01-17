@@ -1,1 +1,1 @@
-[ -d /root/timesync ] && echo "done"
+sudo [ -d /root/timesync ] && echo "done"
