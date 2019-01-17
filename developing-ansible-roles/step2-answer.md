@@ -7,4 +7,4 @@ cat << EOF >> tasks/main.yml
     name: chrony
     state: present
 EOF
-```
+```{{execute}}
