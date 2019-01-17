@@ -2,11 +2,6 @@
 
 Ansible roles are great, because you can write once, reuse many times, introduce unit-testing, push complexity into roles, keeping your playbook simple.
 
-Let's pretend the environment of your company exists out of these components:
+We'll learn how Ansible roles work, how you can write and include roles.
 
-- Fedora 29
-- CentOS 7 machines
-- Ubuntu 18.04 ([Bionic Beaver](https://wiki.ubuntu.com/Releases))
-
-You've been asked to ensure the times are set correctly on all components.
-
+Please wait a minute while ansible is being installed using `pip install ansible`.
