@@ -10,5 +10,5 @@ Details are [documented here](https://docs.ansible.com/ansible/latest/installati
 - Create a file `inventory/hosts` containing:
 
 ```
-host01 ansible_host=localhost connection=local
+localhost ansible_connection=local
 ```
