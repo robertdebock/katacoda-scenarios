@@ -1,4 +1,4 @@
-# Play time
+# Configurations.
 
 So your role is ready to be tested. Ansible always runs playbooks, that include roles.
 
