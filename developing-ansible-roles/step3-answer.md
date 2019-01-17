@@ -6,4 +6,4 @@ cat << EOF >> tasks/main.yml
     state: started
     enabled: yes
 EOF
-```
+```{{execute}}
