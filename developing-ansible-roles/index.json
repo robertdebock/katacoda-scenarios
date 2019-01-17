@@ -22,7 +22,12 @@
       {
         "title": "Step 4",
         "text": "step4.md",
-        "code": "step4-code.sh"
+        "answer": "step4-answer.sh"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md",
+        "answer": "step5-code.md"
       }
     ],
     "intro": {

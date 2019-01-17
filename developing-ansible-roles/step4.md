@@ -1,12 +1,14 @@
-# Play time
+# Almost ready
 
-So your role is ready to be tested. Ansible always runs playbooks, that include roles.
+Let's create our own `inventory/hosts` instead of `/etc/ansible/ansible.cfg`.
 
-We have prepared a few files for you:
+Details are [documented here](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html).
 
-- ansible.cfg - The configuration Ansible uses.
-- inventory/hosts - The hosts/machines known to Ansible.
+# Go!
 
-# Test the connection!
+- Make a directory `inventory`.
+- Create a file `inventory/hosts` containing:
 
-Try the connection using `ansible -m ping all`{{execute}}
+```
+host01 ansible_host=localhost connection=local
+```
