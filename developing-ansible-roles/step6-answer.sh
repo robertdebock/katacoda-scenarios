@@ -9,4 +9,5 @@ cat << EOF > /home/scrapbook/tutorial/playbook.yml
 
   roles:
     - timesync
+EOF
 ```{{execute}}

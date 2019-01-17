@@ -1,5 +1,5 @@
 ```
-cat << EOF > /home/scrapbook/tutorial/timesync/tasks/main.yml
+cat << EOF >> /home/scrapbook/tutorial/timesync/tasks/main.yml
 - name: install chrony
   package:
     name: chrony
