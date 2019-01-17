@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/timesync ] && echo "done"
+[ -d /root/timesync ] && echo "done"

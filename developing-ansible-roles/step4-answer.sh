@@ -1,5 +1,5 @@
 ```
-mkdir /home/scrapbook/tutorial/inventory
+mkdir /root/inventory
 
-echo "localhost ansible_connection=local" > /home/scrapbook/tutorial/inventory/hosts
+echo "localhost ansible_connection=local" > /root/inventory/hosts
 ```{{execute}}

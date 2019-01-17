@@ -1,7 +1,7 @@
 The playbook can look like this:
 
 ```
-cat << EOF > /home/scrapbook/tutorial/playbook.yml
+cat << EOF > /root/playbook.yml
 ---
 - name: setup my machine
   hosts: all
