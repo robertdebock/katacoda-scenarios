@@ -14,20 +14,6 @@ pip install ansible
 
 You could also use the package manager that your distribution provides:
 
-## Ubuntu
-
-```
-apt-get install ansible
-```
-
-## Fedora
-
-```
-dnf install ansible
-```
-
-## CentOS or RHEL
-
-```
-yum install ansible
-```
+- Ubuntu: `apt-get install ansible`
+- Fedora: `dnf install ansible`
+- CentOS or RHEL: `yum install ansible`
