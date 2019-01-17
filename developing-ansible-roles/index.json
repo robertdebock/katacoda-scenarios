@@ -38,6 +38,7 @@
     ],
     "intro": {
       "text": "intro.md"
+      "code": "intro-code.md"
     },
     "finish": {
       "text": "finish.md"
