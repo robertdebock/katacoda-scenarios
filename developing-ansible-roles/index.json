@@ -48,6 +48,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "coreos"
+    "imageid": "ansible"
   }
 }
